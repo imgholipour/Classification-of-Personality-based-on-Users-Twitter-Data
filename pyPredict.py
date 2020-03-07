@@ -1,3 +1,4 @@
+#  -*- coding: utf-8 -*-
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import *
@@ -18,10 +19,10 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from collections import Counter
 
-ckey='M9cjHbuSsAFkUZWPrbhY2Q0kL'
-csecret='aYpMuByAZWZoouhqHEjs3BqUNhwF9NfoEHodGk8nBUdOpBJCgR'
-atoken='994417184322433025-TAGgZ6on9CY8Sn6jyfjJ4giFx8h2jIh'
-asecret='tUItYxsghg0m4kw6QqmiKLVkQzLeNN2r6ZzLSFrvQSARQ'
+ckey='...'
+csecret='...'
+atoken='...'
+asecret='...'
 auth=tweepy.OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 api=tweepy.API(auth)
@@ -125,7 +126,7 @@ getTweets(username)
 with open('user.csv','rt') as f:
 	csvReader=csv.reader(f)
 	tweetList=[rows[0] for rows in csvReader]
-#os.remove('user.csv')
+os.remove('user.csv')
 with open('newfrequency300.csv','rt') as f:
 	csvReader=csv.reader(f)
 	mydict={rows[1]: int(rows[0]) for rows in csvReader}
@@ -135,10 +136,10 @@ x=vectorizer.fit_transform(tweetList).toarray()
 df=pd.DataFrame(x)
 
 
-model_IE = pickle.load(open("BNIEFinal.txt", 'rb'))
-model_SN = pickle.load(open("BNSNFinal.txt", 'rb'))
-model_TF = pickle.load(open('BNTFFinal.txt', 'rb'))
-model_PJ = pickle.load(open('BNPJFinal.txt', 'rb'))
+model_IE = pickle.load(open("BNIEFinal.sav", 'rb'))
+model_SN = pickle.load(open("BNSNFinal.sav", 'rb'))
+model_TF = pickle.load(open('BNTFFinal.sav', 'rb'))
+model_PJ = pickle.load(open('BNPJFinal.sav', 'rb'))
 
 answer=[]
 IE=model_IE.predict(df)
