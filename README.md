@@ -10,7 +10,6 @@
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data.svg)](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
 [![GitHub forks](https://img.shields.io/github/forks/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
 [![GitHub watchers](https://img.shields.io/github/watchers/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
-![Tweeting](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)
 
 A Natural Language Processing (NLP), Machine Learning and Data Mining project, which will automate the screening process before hiring a professional or can be used in psychiatry to check effectivity of patient therapy.  <br />
 
@@ -58,5 +57,5 @@ In Myer's Briggs Type indicator Classification we have 16 types of personality w
 
 * Want to ask any question about this project [us](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data) you can simply create an issue. we will reply to your questions there.
 
-Thanks! :heart: :heart: :heart:
+Thanks for taking out your time! :heart:
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
