@@ -3,13 +3,9 @@
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/priyansh19)
 
 [![HitCount](http://hits.dwyl.com/priyansh19/https://githubcom/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data.svg)](http://hits.dwyl.com/priyansh19/https://githubcom/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
-![Eclipse Marketplace](https://img.shields.io/eclipse-marketplace/l/notepad4e)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
 [![GitHub issues](https://img.shields.io/github/issues/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data.svg)](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data.svg)](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data.svg)](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
