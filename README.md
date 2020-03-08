@@ -25,23 +25,24 @@ In Myer's Briggs Type indicator Classification we have 16 types of personality w
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-#### **Did you find a bug?**
+**Did you find a bug?**
 
 * **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data/issues).
-* **Open up a Github issue if you find a bug and it have not been lready reported** by searching on GitHub under [Issues](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data/issues)\
+* **Open up a New Github issue if you find a bug and it have not been lready reported** by searching on GitHub under [Issues](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data/issues) section.
 
-#### **Did you write a patch that fixes a bug?**
+**Did you write a patch that fixes a bug?**
 
 * Open a new GitHub pull request with the patch
 * Ensure the PR description clearly describes the problem and solution. Include the relevant issue number if applicable
+* Once you open up a Pull Request the maintainer will check the PR and merge it.
 
-#### **Do you aim to add a brand new feature or change an existing one?**
+**Do you aim to add a brand new feature or change an existing one?**
 
 * Suggest your change in the to [us](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data) and start writing code.
 * Do not open an issue on GitHub until you have collected positive feedback about the change. GitHub issues are primarily intended for bug reports and fixes.
 
-#### **Do you have questions about the source code?**
+**Do you have questions about the source code?**
 
-* Ask any question about how to use it to [us](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
+* Want to ask any question about this project [us](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data) you can simply create an issue. we will reply to your questions there.
 
 Thanks! :heart: :heart: :heart:
