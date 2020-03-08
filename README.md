@@ -17,10 +17,31 @@ In Myer's Briggs Type indicator Classification we have 16 types of personality w
 
 ## :rocket: Usage :
 
-1. First step is to run the requirement.txt file to install all the libraries and dependencies.
+1. First step is to run the requirement#### **Did you find a bug?**.txt file to install all the libraries and dependencies.
 1. Run pyGen.py first to generate your naive bayes classifier models for all 4 different classes. It will generate few scores which will give the training data size and the features used while training the model.
 1. Run pyPredict(use your own Twitter keys) and enter the username you want to predict.   
 
 ## :palm_tree: Contribution :
 
-// yet to be added //
+:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+
+#### **Did you find a bug?**
+
+* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data/issues).
+* **Open up a Github issue if you find a bug and it have not been lready reported** by searching on GitHub under [Issues](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data/issues)\
+
+#### **Did you write a patch that fixes a bug?**
+
+* Open a new GitHub pull request with the patch
+* Ensure the PR description clearly describes the problem and solution. Include the relevant issue number if applicable
+
+#### **Do you aim to add a brand new feature or change an existing one?**
+
+* Suggest your change in the to [us](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data) and start writing code.
+* Do not open an issue on GitHub until you have collected positive feedback about the change. GitHub issues are primarily intended for bug reports and fixes.
+
+#### **Do you have questions about the source code?**
+
+* Ask any question about how to use it to [us](https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
+
+Thanks! :heart: :heart: :heart:
