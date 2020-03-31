@@ -1,5 +1,5 @@
 <p>
-    <img allign="center" src="Images/twitter.webp">
+    <img width="300" height="300" allign="center" src="Images/twitter.webp">
 </p>
 
 # :memo: Classifying Personality Of A Person Based On His Twitter Data
