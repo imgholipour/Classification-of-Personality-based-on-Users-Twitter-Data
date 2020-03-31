@@ -1,3 +1,7 @@
+<p>
+    <img allign="center" src="Images/twitter.webp">
+</p>
+
 # :memo: Classifying Personality Of A Person Based On His Twitter Data
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/priyansh19)
@@ -21,7 +25,7 @@ A Natural Language Processing (NLP), Machine Learning and Data Mining project, w
 ## :rainbow: Types of Personalities :
 
 In Myer's Briggs Type indicator Classification we have 16 types of personality which can be categorized as :<br />
-![Types](https://user-images.githubusercontent.com/33621094/74926796-4ddb5200-538b-11ea-944a-78ad55c3395f.png)
+![](Images/Types.png)
 
 ## :rocket: Usage :
 
