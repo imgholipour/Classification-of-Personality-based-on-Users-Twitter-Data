@@ -1,10 +1,9 @@
-<p>
-    <img width="300" height="300" allign="center" src="Images/twitter.webp">
+<p align="left">
+    <img width="200" height="200" src="Images/twitter.webp">
 </p>
 
-# :memo: Classifying Personality Of A Person Based On His Twitter Data
+# Classifying Personality Of A Person Based On His Twitter Data
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/priyansh19)
 
 [![HitCount](http://hits.dwyl.com/priyansh19/https://githubcom/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data.svg)](http://hits.dwyl.com/priyansh19/https://githubcom/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
