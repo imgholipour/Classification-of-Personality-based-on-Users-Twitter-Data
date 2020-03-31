@@ -9,16 +9,16 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
-csvFile=open('newfrequency300.csv', 'rt')
+csvFile=open('CSV_Data/newfrequency300.csv', 'rt')
 csvReader=csv.reader(csvFile)
 mydict={row[1]: int(row[0]) for row in csvReader}
 
 y=[]
-with open ('PJFinaltest.csv', 'rt') as f:
+with open ('CSV_Data/PJFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
 
-with open ('PJFinaltest.csv', 'rt') as f:
+with open ('CSV_Data/PJFinaltest.csv', 'rt') as f:
 	csvReader1=csv.reader(f)
 	for rows in csvReader1:
 		y.append([int(rows[1])])
@@ -36,15 +36,15 @@ print(test.shape)
 xtrain=train.drop(301,axis=1)
 xtest=test.drop(301,axis=1)
 model.fit(xtrain,y_train)
-pickle.dump(model, open('BNPJFinal.sav', 'wb'))
+pickle.dump(model, open('Pickle_Data/BNPJFinal.sav', 'wb'))
 del result
 
 y=[]
-with open ('IEFinaltest.csv', 'rt') as f:
+with open ('CSV_Data/IEFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
 
-with open ('IEFinaltest.csv', 'rt') as f:
+with open ('CSV_Data/IEFinaltest.csv', 'rt') as f:
 	csvReader1=csv.reader(f)
 	for rows in csvReader1:
 		y.append([int(rows[1])])
@@ -62,15 +62,15 @@ print(test.shape)
 xtrain=train.drop(301,axis=1)
 xtest=test.drop(301,axis=1)
 model.fit(xtrain,y_train)
-pickle.dump(model, open('BNIEFinal.sav', 'wb'))
+pickle.dump(model, open('Pickle_Data/BNIEFinal.sav', 'wb'))
 del result
 
 y=[]
-with open ('TFFinaltest.csv', 'rt') as f:
+with open ('CSV_Data/TFFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
 
-with open ('TFFinaltest.csv', 'rt') as f:
+with open ('CSV_Data/TFFinaltest.csv', 'rt') as f:
 	csvReader1=csv.reader(f)
 	for rows in csvReader1:
 		y.append([int(rows[1])])
@@ -88,15 +88,15 @@ print(test.shape)
 xtrain=train.drop(301,axis=1)
 xtest=test.drop(301,axis=1)
 model.fit(xtrain,y_train)
-pickle.dump(model, open('BNTFFinal.sav', 'wb'))
+pickle.dump(model, open('Pickle_Data/BNTFFinal.sav', 'wb'))
 del result
 
 y=[]
-with open ('SNFinaltest.csv', 'rt') as f:
+with open ('CSV_Data/SNFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
 
-with open ('SNFinaltest.csv', 'rt') as f:
+with open ('CSV_Data/SNFinaltest.csv', 'rt') as f:
 	csvReader1=csv.reader(f)
 	for rows in csvReader1:
 		y.append([int(rows[1])])
@@ -114,4 +114,4 @@ print(test.shape)
 xtrain=train.drop(301,axis=1)
 xtest=test.drop(301,axis=1)
 model.fit(xtrain,y_train)
-pickle.dump(model, open('BNSNFinal.sav', 'wb'))
+pickle.dump(model, open('Pickle_Data/BNSNFinal.sav', 'wb'))
