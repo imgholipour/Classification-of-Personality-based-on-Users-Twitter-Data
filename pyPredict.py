@@ -183,7 +183,9 @@ mbti="".join(answer)
 # Classifying Personality's ==========================================>
 print('===============================================================================>')
 
-print('User Name - ' + username)
+print('User Name - ' + username + '\n')
+
+print('Type of Personality \n')
 
 if mbti == 'ENFJ':
 	str1 = '" The Giver "'
