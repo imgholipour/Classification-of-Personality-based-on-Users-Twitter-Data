@@ -271,9 +271,10 @@ elif mbti == 'ENTP':
 	str1 = '" The Visionary "'
 	print(mbti +' - '+ str1)
 	print("\nThe Visionary :-")
-	print(" ")
-elif mbti == 'INFP':
-	str1 = '" The Idealist "'
+	print(" Those with the ENTP personality are some of the rarest in the world, which is completely understandable. Although they are extroverts, they don’t enjoy small talk and may not thrive in many social situations, especially those that involve people who are too different from the ENTP. ENTPs are intelligent and knowledgeable need to be constantly mentally stimulated. ")
+
+elif mbti == 'ISFP':
+	str1 = '" The Composer "'
 	print(mbti +' - '+ str1)
-	print("\nThe Idealist :-")
-	print(" ")
+	print("\nThe Composer :-")
+	print(" They are introverts that do not seem like introverts. It is because even if they have difficulties connecting to other people at first, they become warm, approachable, and friendly eventually. They are fun to be with and very spontaneous, which makes them the perfect friend to tag along in whatever activity, regardless if planned or unplanned. ISFPs want to live their life to the fullest and embrace the present, so they make sure they are always out to explore new things and discover new experiences.")
