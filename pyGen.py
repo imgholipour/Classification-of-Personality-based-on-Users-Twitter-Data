@@ -18,7 +18,7 @@ pprint.pprint(mydict)
 print('<===================================================================================>')
 
 y=[]
-#print('Training Model for ')
+print('Training Model for Judging/Perception')
 with open ('CSV_Data/PJFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
@@ -44,7 +44,9 @@ model.fit(xtrain,y_train)
 pickle.dump(model, open('Pickle_Data/BNPJFinal.sav', 'wb'))
 del result
 
+print('<===================================================================================>')
 y=[]
+print('Training Model for Introversion/Extraversion')
 with open ('CSV_Data/IEFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
@@ -70,7 +72,9 @@ model.fit(xtrain,y_train)
 pickle.dump(model, open('Pickle_Data/BNIEFinal.sav', 'wb'))
 del result
 
+print('<===================================================================================>')
 y=[]
+print('Training Model for Thinking/Feeling')
 with open ('CSV_Data/TFFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
@@ -96,6 +100,7 @@ model.fit(xtrain,y_train)
 pickle.dump(model, open('Pickle_Data/BNTFFinal.sav', 'wb'))
 del result
 
+print('<===================================================================================>')
 y=[]
 with open ('CSV_Data/SNFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
