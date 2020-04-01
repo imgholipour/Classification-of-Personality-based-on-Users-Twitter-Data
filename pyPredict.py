@@ -19,10 +19,10 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from collections import Counter
 
-ckey='...'
-csecret='...'
-atoken='...'
-asecret='...'
+ckey='YvQZ4wcEhYo4F4Lj8PQqj500d'
+csecret='nDMvzbvQxt2zW9GZOalnOikeDcwGwPwvi2USOD5phJCmw5e9wD'
+atoken='994417184322433025-anaAEWzZErK5h8CGTxEgJMPFwfRoMNA'
+asecret='M2RwOR7CaWHMO7d83iWuKhHmEtgyaomobBNt9bsJhSF3i'
 auth=tweepy.OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 api=tweepy.API(auth)
@@ -127,7 +127,7 @@ with open('user.csv','rt') as f:
 	csvReader=csv.reader(f)
 	tweetList=[rows[0] for rows in csvReader]
 os.remove('user.csv')
-with open('newfrequency300.csv','rt') as f:
+with open('CSV_Data/newfrequency300.csv','rt') as f:
 	csvReader=csv.reader(f)
 	mydict={rows[1]: int(rows[0]) for rows in csvReader}
 
@@ -136,10 +136,10 @@ x=vectorizer.fit_transform(tweetList).toarray()
 df=pd.DataFrame(x)
 
 
-model_IE = pickle.load(open("BNIEFinal.sav", 'rb'))
-model_SN = pickle.load(open("BNSNFinal.sav", 'rb'))
-model_TF = pickle.load(open('BNTFFinal.sav', 'rb'))
-model_PJ = pickle.load(open('BNPJFinal.sav', 'rb'))
+model_IE = pickle.load(open("Pickle_Data/BNIEFinal.sav", 'rb'))
+model_SN = pickle.load(open("Pickle_Data/BNSNFinal.sav", 'rb'))
+model_TF = pickle.load(open('Pickle_Data/BNTFFinal.sav', 'rb'))
+model_PJ = pickle.load(open('Pickle_Data/BNPJFinal.sav', 'rb'))
 
 answer=[]
 IE=model_IE.predict(df)
@@ -150,7 +150,7 @@ PJ=model_PJ.predict(df)
 
 b = Counter(IE)
 value=b.most_common(1)
-print(value)
+#print(value)
 if value[0][0] == 1.0:
 	answer.append("I")
 else:
@@ -158,7 +158,7 @@ else:
 
 b = Counter(SN)
 value=b.most_common(1)
-print(value)
+#print(value)
 if value[0][0] == 1.0:
 	answer.append("S")
 else:
@@ -166,7 +166,7 @@ else:
 
 b = Counter(TF)
 value=b.most_common(1)
-print(value)
+#print(value)
 if value[0][0] == 1:
 	answer.append("T")
 else:
@@ -174,10 +174,17 @@ else:
 
 b = Counter(PJ)
 value=b.most_common(1)
-print(value)
+#print(value)
 if value[0][0] == 1:
 	answer.append("P")
 else:
 	answer.append("J")
 mbti="".join(answer)
-print(mbti)
+# Classifying Personality's ==========================================>
+print('=================================================>')
+
+if mbti == 'ENFJ':
+	str1 = '" The Giver "'
+	print(mbti +' - '+ str1)
+	print("\nThe Giver :-")
+	print(" They are extroverted, idealistic, charismatic, outspoken, \n highly principled and ethical, and usually know how to connect \n with others no matter their background or personality. ")

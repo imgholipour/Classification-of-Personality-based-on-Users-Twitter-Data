@@ -2,6 +2,7 @@ import csv
 import array
 import pandas
 import pickle
+import pprint
 import os
 import sys
 import numpy as np
@@ -11,9 +12,13 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 csvFile=open('CSV_Data/newfrequency300.csv', 'rt')
 csvReader=csv.reader(csvFile)
+print('Reading stop_words from database...')
 mydict={row[1]: int(row[0]) for row in csvReader}
+pprint.pprint(mydict)
+print('<===================================================================================>')
 
 y=[]
+#print('Training Model for ')
 with open ('CSV_Data/PJFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
