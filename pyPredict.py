@@ -188,3 +188,92 @@ if mbti == 'ENFJ':
 	print(mbti +' - '+ str1)
 	print("\nThe Giver :-")
 	print(" They are extroverted, idealistic, charismatic, outspoken, \n highly principled and ethical, and usually know how to connect \n with others no matter their background or personality. ")
+
+elif mbti == 'ISTJ':
+	str1 = '" The Inspector "'
+	print(mbti +' - '+ str1)
+	print("\nThe Inspector :-")
+	print(" They appear serious, formal, and proper. They also love \n traditions and old-school values that uphold patience, hard work,\n honor, and social and cultural responsibility. They are reserved, calm, quiet, and upright. ")
+
+elif mbti == 'INFJ':
+	str1 = '" The Counselor "'
+	print(mbti +' - '+ str1)
+	print("\nThe Counselor :-")
+	print(" They have a different, and usually more profound, way of\n looking at the world. They have a substance and depth in the way \n they think, never taking anything at surface level or accepting things the way they are")
+
+elif mbti == 'INTJ':
+	str1 = '" The Mastermind "'
+	print(mbti +' - '+ str1)
+	print("\nThe Mastermind :-")
+	print(" They are usually self-sufficient and would rather work alone than in a group. Socializing drains an introvert’s energy, causing them to need to recharge.")
+
+elif mbti == 'ISTP':
+	str1 = '" The Craftsman "'
+	print(mbti +' - '+ str1)
+	print("\nThe Craftsman :-")
+	print(" They are mysterious people who are usually very rational and logical, but also quite spontaneous and enthusiastic. Their personality traits are less easily recognizable than those of other types, and even people who know them well can’t always anticipate their reactions. Deep down, ISTPs are spontaneous, unpredictable individuals, but they hide those traits from the outside world, often very successfully.")
+
+elif mbti == 'ESFJ':
+	str1 = '" The Provider "'
+	print(mbti +' - '+ str1)
+	print("\nThe Provider :-")
+	print(" They are social butterflies, and their need to interact with others and make people happy usually ends up making them popular. The ESFJ usually tends to be the cheerleader or sports hero in high school and college. Later on in life, they continue to revel in the spotlight, and are primarily focused on organizing social events for their families, friends and communities. ")
+
+elif mbti == 'INFP':
+	str1 = '" The Idealist "'
+	print(mbti +' - '+ str1)
+	print("\nThe Idealist :-")
+	print(" They prefer not to talk about themselves, especially in the first encounter with a new person. They like spending time alone in quiet places where they can make sense of what is happening around them. They love analyzing signs and symbols, and consider them to be metaphors that have deeper meanings related to life. ")
+
+elif mbti == 'ESFP':
+	str1 = '" The Performer "'
+	print(mbti +' - '+ str1)
+	print("\nThe Performer :-")
+	print(" They have an Extraverted, Observant, Feeling and Perceiving personality, and are commonly seen as Entertainers. Born to be in front of others and to capture the stage, ESFPs love the spotlight. ESFPs are thoughtful explorers who love learning and sharing what they learn with others. ESFPs are “people people” with strong interpersonal skills.")
+
+elif mbti == 'ENFP':
+	str1 = '" The Champion "'
+	print(mbti +' - '+ str1)
+	print("\nThe Champion :-")
+	print(" have an Extraverted, Intuitive, Feeling and Perceiving personality. This personality type is highly individualistic and Champions strive toward creating their own methods, looks, actions, habits, and ideas — they do not like cookie cutter people and hate when they are forced to live inside a box. ")
+
+elif mbti == 'ESTP':
+	str1 = '" The Doer "'
+	print(mbti +' - '+ str1)
+	print("\nThe Doer :-")
+	print(" They have an Extraverted, Sensing, Thinking, and Perceptive personality. ESTPs are governed by the need for social interaction, feelings and emotions, logical processes and reasoning, along with a need for freedom. ")
+
+elif mbti == 'ESTJ':
+	str1 = '" The Supervisor "'
+	print(mbti +' - '+ str1)
+	print("\nThe Supervisor :-")
+	print(" They are organized, honest, dedicated, dignified, traditional, and are great believers of doing what they believe is right and socially acceptable. Though the paths towards “good” and “right” are difficult, they are glad to take their place as the leaders of the pack. They are the epitome of good citizenry. ")
+
+elif mbti == 'ENTJ':
+	str1 = '" The Commander "'
+	print(mbti +' - '+ str1)
+	print("\nThe Commander :-")
+	print(" Their secondary mode of operation is internal, where intuition and reasoning take effect. ENTJs are natural born leaders among the 16 personality types and like being in charge. They live in a world of possibilities and they often see challenges and obstacles as great opportunities to push themselves.")
+
+elif mbti == 'INTP':
+	str1 = '" The Thinker "'
+	print(mbti +' - '+ str1)
+	print("\nThe Thinker :-")
+	print(" They are well known for their brilliant theories and unrelenting logic, which makes sense since they are arguably the most logical minded of all the personality types. They love patterns, have a keen eye for picking up on discrepancies, and a good ability to read people, making it a bad idea to lie to an INTP.")
+
+elif mbti == 'ISFJ':
+	str1 = '" The Nurturer "'
+	print(mbti +' - '+ str1)
+	print("\nThe Nurturer :-")
+	print(" They are philanthropists and they are always ready to give back and return generosity with even more generosity. The people and things they believe in will be upheld and supported with enthusiasm and unselfishness.")
+
+elif mbti == 'ENTP':
+	str1 = '" The Visionary "'
+	print(mbti +' - '+ str1)
+	print("\nThe Visionary :-")
+	print(" ")
+elif mbti == 'INFP':
+	str1 = '" The Idealist "'
+	print(mbti +' - '+ str1)
+	print("\nThe Idealist :-")
+	print(" ")
