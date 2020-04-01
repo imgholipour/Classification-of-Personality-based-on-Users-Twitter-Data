@@ -12,7 +12,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 csvFile=open('CSV_Data/newfrequency300.csv', 'rt')
 csvReader=csv.reader(csvFile)
-print('\n Reading stop_words from database...')
+print('\nReading stop_words from database...')
 mydict={row[1]: int(row[0]) for row in csvReader}
 #pprint.pprint(mydict)
 
