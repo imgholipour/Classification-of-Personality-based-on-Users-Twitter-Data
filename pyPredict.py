@@ -181,7 +181,9 @@ else:
 	answer.append("J")
 mbti="".join(answer)
 # Classifying Personality's ==========================================>
-print('=================================================>')
+print('===============================================================================>')
+
+print('User Name - ' + username)
 
 if mbti == 'ENFJ':
 	str1 = '" The Giver "'
@@ -273,8 +275,10 @@ elif mbti == 'ENTP':
 	print("\nThe Visionary :-")
 	print(" Those with the ENTP personality are some of the rarest in the world,\n  which is completely understandable. Although they are \n extroverts, they don’t enjoy small talk and may not thrive in many social \n situations, especially those that involve people who are too different\n from the ENTP. ENTPs are intelligent and knowledgeable need to \n be constantly mentally stimulated. ")
 
-elif mbti == 'ISFP':
+else :
 	str1 = '" The Composer "'
 	print(mbti +' - '+ str1)
 	print("\nThe Composer :-")
 	print(" They are introverts that do not seem like introverts. It is \n because even if they have difficulties connecting to other people\n at first, they become warm, approachable, and friendly eventually. They \n are fun to be with and very spontaneous, which makes them the perfect \n friend to tag along in whatever activity, regardless if planned \n or unplanned. ISFPs want to live their life to the fullest and embrace the\n present, so they make sure they are always out to explore new things and \n discover new experiences.")
+
+print('===============================================================================>')
