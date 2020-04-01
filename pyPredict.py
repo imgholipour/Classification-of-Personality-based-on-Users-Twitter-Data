@@ -253,19 +253,19 @@ elif mbti == 'ENTJ':
 	str1 = '" The Commander "'
 	print(mbti +' - '+ str1)
 	print("\nThe Commander :-")
-	print(" Their secondary mode of operation is internal, where intuition and reasoning take effect. ENTJs are natural born leaders among the 16 personality types and like being in charge. They live in a world of possibilities and they often see challenges and obstacles as great opportunities to push themselves.")
+	print(" Their secondary mode of operation is internal, where intuition \n and reasoning take effect. ENTJs are natural born leaders among \n the 16 personality types and like being in charge. They live in a world of \n possibilities and they often see challenges and obstacles as great \n opportunities to push themselves.")
 
 elif mbti == 'INTP':
 	str1 = '" The Thinker "'
 	print(mbti +' - '+ str1)
 	print("\nThe Thinker :-")
-	print(" They are well known for their brilliant theories and unrelenting logic, which makes sense since they are arguably the most logical minded of all the personality types. They love patterns, have a keen eye for picking up on discrepancies, and a good ability to read people, making it a bad idea to lie to an INTP.")
+	print(" They are well known for their brilliant theories and unrelenting\n logic, which makes sense since they are arguably the most logical \n minded of all the personality types. They love patterns, have a keen eye \n for picking up on discrepancies, and a good ability to read people, \n making it a bad idea to lie to an INTP.")
 
 elif mbti == 'ISFJ':
 	str1 = '" The Nurturer "'
 	print(mbti +' - '+ str1)
 	print("\nThe Nurturer :-")
-	print(" They are philanthropists and they are always ready to give back and return generosity with even more generosity. The people and things they believe in will be upheld and supported with enthusiasm and unselfishness.")
+	print(" They are philanthropists and they are always ready to give back \n and return generosity with even more generosity. The people \n and things they believe in will be upheld and supported with enthusiasm\n  and unselfishness.")
 
 elif mbti == 'ENTP':
 	str1 = '" The Visionary "'
