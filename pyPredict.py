@@ -205,37 +205,37 @@ elif mbti == 'INTJ':
 	str1 = '" The Mastermind "'
 	print(mbti +' - '+ str1)
 	print("\nThe Mastermind :-")
-	print(" They are usually self-sufficient and would rather work alone than in a group. Socializing drains an introvert’s energy, causing them to need to recharge.")
+	print(" They are usually self-sufficient and would rather work \n alone than in a group. Socializing drains an introvert’s energy, \n causing them to need to recharge.")
 
 elif mbti == 'ISTP':
 	str1 = '" The Craftsman "'
 	print(mbti +' - '+ str1)
 	print("\nThe Craftsman :-")
-	print(" They are mysterious people who are usually very rational and logical, but also quite spontaneous and enthusiastic. Their personality traits are less easily recognizable than those of other types, and even people who know them well can’t always anticipate their reactions. Deep down, ISTPs are spontaneous, unpredictable individuals, but they hide those traits from the outside world, often very successfully.")
+	print(" They are mysterious people who are usually very rational\n and logical, but also quite spontaneous and enthusiastic. Their \n personality traits are less easily recognizable than those of other \n types, and even people who know them well can’t always anticipate \n their reactions. Deep down, ISTPs are spontaneous, unpredictable individuals,\n but they hide those traits from the outside world, often very successfully.")
 
 elif mbti == 'ESFJ':
 	str1 = '" The Provider "'
 	print(mbti +' - '+ str1)
 	print("\nThe Provider :-")
-	print(" They are social butterflies, and their need to interact with others and make people happy usually ends up making them popular. The ESFJ usually tends to be the cheerleader or sports hero in high school and college. Later on in life, they continue to revel in the spotlight, and are primarily focused on organizing social events for their families, friends and communities. ")
+	print(" They are social butterflies, and their need to interact\n with others and make people happy usually ends up making them popular.\n The ESFJ usually tends to be the cheerleader or sports hero in high school\n and college. Later on in life, they continue to revel in the \n spotlight, and are primarily focused on organizing social events for their families,\n friends and communities. ")
 
 elif mbti == 'INFP':
 	str1 = '" The Idealist "'
 	print(mbti +' - '+ str1)
 	print("\nThe Idealist :-")
-	print(" They prefer not to talk about themselves, especially in the first encounter with a new person. They like spending time alone in quiet places where they can make sense of what is happening around them. They love analyzing signs and symbols, and consider them to be metaphors that have deeper meanings related to life. ")
+	print(" They prefer not to talk about themselves, especially in \n the first encounter with a new person. They like spending time alone in \n quiet places where they can make sense of what is happening around them. \n They love analyzing signs and symbols, and consider them to be \n metaphors that have deeper meanings related to life. ")
 
 elif mbti == 'ESFP':
 	str1 = '" The Performer "'
 	print(mbti +' - '+ str1)
 	print("\nThe Performer :-")
-	print(" They have an Extraverted, Observant, Feeling and Perceiving personality, and are commonly seen as Entertainers. Born to be in front of others and to capture the stage, ESFPs love the spotlight. ESFPs are thoughtful explorers who love learning and sharing what they learn with others. ESFPs are “people people” with strong interpersonal skills.")
+	print(" They have an Extraverted, Observant, Feeling and Perceiving \n personality, and are commonly seen as Entertainers. Born to be in \n front of others and to capture the stage, ESFPs love the spotlight. ESFPs \n are thoughtful explorers who love learning and sharing what they \n learn with others. ESFPs are “people people” with strong interpersonal skills.")
 
 elif mbti == 'ENFP':
 	str1 = '" The Champion "'
 	print(mbti +' - '+ str1)
 	print("\nThe Champion :-")
-	print(" have an Extraverted, Intuitive, Feeling and Perceiving personality. This personality type is highly individualistic and Champions strive toward creating their own methods, looks, actions, habits, and ideas — they do not like cookie cutter people and hate when they are forced to live inside a box. ")
+	print(" They have an Extraverted, Intuitive, Feeling and Perceiving personality. This personality type is highly individualistic and Champions strive toward creating their own methods, looks, actions, habits, and ideas — they do not like cookie cutter people and hate when they are forced to live inside a box. ")
 
 elif mbti == 'ESTP':
 	str1 = '" The Doer "'
