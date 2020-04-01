@@ -235,13 +235,13 @@ elif mbti == 'ENFP':
 	str1 = '" The Champion "'
 	print(mbti +' - '+ str1)
 	print("\nThe Champion :-")
-	print(" They have an Extraverted, Intuitive, Feeling and Perceiving personality. This personality type is highly individualistic and Champions strive toward creating their own methods, looks, actions, habits, and ideas — they do not like cookie cutter people and hate when they are forced to live inside a box. ")
+	print(" They have an Extraverted, Intuitive, Feeling and Perceiving \n personality. This personality type is highly individualistic and \n Champions strive toward creating their own methods, looks, actions, habits, \n and ideas — they do not like cookie cutter people and hate when they \n are forced to live inside a box. ")
 
 elif mbti == 'ESTP':
 	str1 = '" The Doer "'
 	print(mbti +' - '+ str1)
 	print("\nThe Doer :-")
-	print(" They have an Extraverted, Sensing, Thinking, and Perceptive personality. ESTPs are governed by the need for social interaction, feelings and emotions, logical processes and reasoning, along with a need for freedom. ")
+	print(" They have an Extraverted, Sensing, Thinking, and Perceptive\n personality. ESTPs are governed by the need for social interaction,\n feelings and emotions, logical processes and reasoning, along with a need \n for freedom. ")
 
 elif mbti == 'ESTJ':
 	str1 = '" The Supervisor "'
