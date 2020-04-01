@@ -15,10 +15,10 @@ csvReader=csv.reader(csvFile)
 print('Reading stop_words from database...')
 mydict={row[1]: int(row[0]) for row in csvReader}
 pprint.pprint(mydict)
-print('<===================================================================================>')
 
+print('<===================================================================================>')
 y=[]
-print('Training Model for Judging/Perception')
+print('Training Model for Judging/Perception ...')
 with open ('CSV_Data/PJFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
@@ -46,7 +46,7 @@ del result
 
 print('<===================================================================================>')
 y=[]
-print('Training Model for Introversion/Extraversion')
+print('Training Model for Introversion/Extraversion ...')
 with open ('CSV_Data/IEFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
@@ -74,7 +74,7 @@ del result
 
 print('<===================================================================================>')
 y=[]
-print('Training Model for Thinking/Feeling')
+print('Training Model for Thinking/Feeling ...')
 with open ('CSV_Data/TFFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
@@ -102,6 +102,7 @@ del result
 
 print('<===================================================================================>')
 y=[]
+print('Training Model for Sensing/Intuition ...')
 with open ('CSV_Data/SNFinaltest.csv', 'rt') as f:
 	reader=csv.reader(f)
 	corpus=[rows[0] for rows in reader]
