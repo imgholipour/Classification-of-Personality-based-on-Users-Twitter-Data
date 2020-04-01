@@ -247,7 +247,7 @@ elif mbti == 'ESTJ':
 	str1 = '" The Supervisor "'
 	print(mbti +' - '+ str1)
 	print("\nThe Supervisor :-")
-	print(" They are organized, honest, dedicated, dignified, traditional, and are great believers of doing what they believe is right and socially acceptable. Though the paths towards “good” and “right” are difficult, they are glad to take their place as the leaders of the pack. They are the epitome of good citizenry. ")
+	print(" They are organized, honest, dedicated, dignified, traditional,\n and are great believers of doing what they believe is right and \n socially acceptable. Though the paths towards “good” and “right” are difficult,\n they are glad to take their place as the leaders of the pack. \n They are the epitome of good citizenry. ")
 
 elif mbti == 'ENTJ':
 	str1 = '" The Commander "'
